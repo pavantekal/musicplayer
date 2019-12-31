@@ -1,0 +1,115 @@
+<html>
+<head>
+<style>
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+	border: 2px solid #bd5d38;
+    border-radius: 4px;
+}
+div {
+    width:500px;
+    margin: auto;
+    border: 3px solid orange;
+	color:#bd5d38;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #bd5d38;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+h2,h1{
+color:#bd5d38;
+}
+body{
+background-image:url("img/bg1.jpg");
+</style>
+</head>
+<body>
+<div id="box">
+<center><h1><u>Song Upload</u></h1></center>
+ <table align="center">
+
+                  <tr>
+                    <td>
+                      <label>
+                        <h2>Song name: </h2>
+                      </label>
+                    </td>
+                    <td>
+                      
+                      <input type="text" placeholder="Enter Song name">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label>
+                        <h2>Artists: </h2>
+                      </label>
+                    </td>
+                    <td>
+                      <input type="text" placeholder="Enter Artists" >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label>
+                        <h2>Album name: </h2>
+                      </label>
+                    </td>
+                    <td>
+                      <input type="text" placeholder="Enter Album name">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label>
+                        <h2>Display picture:</h2
+                      </label>
+                    </td>
+                    <td>
+                        <input type="file" id="dp" name="dp" accept="image/jpeg" >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label>                 
+                        <h2>Genre: </h2>
+                      </label>
+                    </td>
+                    <td>
+                      <input type="text" placeholder="Enter Genre">
+                    </td>
+                  </tr>
+				  <tr>
+                    <td>
+                      <label>
+                        <h2>Song:</h2
+                      </label>
+                    </td>
+                    <td>
+                        <input type="file" id="song" name="song" >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" align="center" >
+                      <button type="submit" class="button">Upload</button>
+                    </td>
+                  </tr>
+				  
+				  
+                </table>
+	</div>
+</body>
+</html>
